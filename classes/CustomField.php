@@ -1,17 +1,23 @@
 <?php
 
-    Class CustomField{
+Class CustomField{
 
-        private $id;
-        
-        function getId() {
-            return $this->id;
-        }
-
-        function setId($id) {
-            $this->id = $id;
-        }
-
-
-        
+    private $id;
+    private $newName;
+    
+    function getId() {
+        return $this->id;
     }
+
+    function setId($id) {
+        $this->id = $id;
+    }
+
+    function getNewName() {
+        return $this->newName;
+    }
+
+    function setNome($newName) {
+        $this->newName = $newName;
+    }
+}

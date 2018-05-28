@@ -1,8 +1,8 @@
 <?php 
 
-class FullProcesso
-{
-	private $id;
+Class FullProcesso {
+    
+    private $idFullProcesso;
 	private $idPasta;
 	private $codigo;
 	private $tituloPasta;
@@ -23,166 +23,164 @@ class FullProcesso
 	private $dataBaixa;
 	private $importData;
         
-        function getId() {
-            return $this->id;
-        }
+    function getIdFullProcesso() {
+        return $this->idFullProcesso;
+    }
 
-        function getIdPasta() {
-            return $this->idPasta;
-        }
+    function getIdPasta() {
+        return $this->idPasta;
+    }
 
-        function getCodigo() {
-            return $this->codigo;
-        }
+    function getCodigo() {
+        return $this->codigo;
+    }
 
-        function getTituloPasta() {
-            return $this->tituloPasta;
-        }
+    function getTituloPasta() {
+        return $this->tituloPasta;
+    }
 
-        function getPastaStatus() {
-            return $this->pastaStatus;
-        }
+    function getPastaStatus() {
+        return $this->pastaStatus;
+    }
 
-        function getIdRitoProc() {
-            return $this->idRitoProc;
-        }
+    function getIdRitoProc() {
+        return $this->idRitoProc;
+    }
 
-        function getNomeRito() {
-            return $this->nomeRito;
-        }
+    function getNomeRito() {
+        return $this->nomeRito;
+    }
 
-        function getIdTipoAcaoProc() {
-            return $this->idTipoAcaoProc;
-        }
+    function getIdTipoAcaoProc() {
+        return $this->idTipoAcaoProc;
+    }
 
-        function getNomeTipoAcao() {
-            return $this->nomeTipoAcao;
-        }
+    function getNomeTipoAcao() {
+        return $this->nomeTipoAcao;
+    }
 
-        function getIdContratoNegociacao() {
-            return $this->idContratoNegociacao;
-        }
+    function getIdContratoNegociacao() {
+        return $this->idContratoNegociacao;
+    }
 
-        function getDataCadastro() {
-            return $this->dataCadastro;
-        }
+    function getDataCadastro() {
+        return $this->dataCadastro;
+    }
 
-        function getIsProbIsToExito() {
-            return $this->isProbIsToExito;
-        }
+    function getIsProbIsToExito() {
+        return $this->isProbIsToExito;
+    }
 
-        function getNomeResultado() {
-            return $this->nomeResultado;
-        }
+    function getNomeResultado() {
+        return $this->nomeResultado;
+    }
 
-        function getIdProbabilidade() {
-            return $this->idProbabilidade;
-        }
+    function getIdProbabilidade() {
+        return $this->idProbabilidade;
+    }
 
-        function getNomeProbabilidade() {
-            return $this->nomeProbabilidade;
-        }
+    function getNomeProbabilidade() {
+        return $this->nomeProbabilidade;
+    }
 
-        function getDataPrevPagRec() {
-            return $this->dataPrevPagRec;
-        }
+    function getDataPrevPagRec() {
+        return $this->dataPrevPagRec;
+    }
 
-        function getIdFase() {
-            return $this->idFase;
-        }
+    function getIdFase() {
+        return $this->idFase;
+    }
 
-        function getNomeFase() {
-            return $this->nomeFase;
-        }
+    function getNomeFase() {
+        return $this->nomeFase;
+    }
 
-        function getDataBaixa() {
-            return $this->dataBaixa;
-        }
+    function getDataBaixa() {
+        return $this->dataBaixa;
+    }
 
-        function getImportData() {
-            return $this->importData;
-        }
+    function getImportData() {
+        return $this->importData;
+    }
 
-        function setId($id) {
-            $this->id = $id;
-        }
+    function setIdFullProcesso($idFullProcesso) {
+        $this->idFullProcesso = $idFullProcesso;
+    }
 
-        function setIdPasta($idPasta) {
-            $this->idPasta = $idPasta;
-        }
+    function setIdPasta($idPasta) {
+        $this->idPasta = $idPasta;
+    }
 
-        function setCodigo($codigo) {
-            $this->codigo = $codigo;
-        }
+    function setCodigo($codigo) {
+        $this->codigo = $codigo;
+    }
 
-        function setTituloPasta($tituloPasta) {
-            $this->tituloPasta = $tituloPasta;
-        }
+    function setTituloPasta($tituloPasta) {
+        $this->tituloPasta = $tituloPasta;
+    }
 
-        function setPastaStatus($pastaStatus) {
-            $this->pastaStatus = $pastaStatus;
-        }
+    function setPastaStatus($pastaStatus) {
+        $this->pastaStatus = $pastaStatus;
+    }
 
-        function setIdRitoProc($idRitoProc) {
-            $this->idRitoProc = $idRitoProc;
-        }
+    function setIdRitoProc($idRitoProc) {
+        $this->idRitoProc = $idRitoProc;
+    }
 
-        function setNomeRito($nomeRito) {
-            $this->nomeRito = $nomeRito;
-        }
+    function setNomeRito($nomeRito) {
+        $this->nomeRito = $nomeRito;
+    }
 
-        function setIdTipoAcaoProc($idTipoAcaoProc) {
-            $this->idTipoAcaoProc = $idTipoAcaoProc;
-        }
+    function setIdTipoAcaoProc($idTipoAcaoProc) {
+        $this->idTipoAcaoProc = $idTipoAcaoProc;
+    }
 
-        function setNomeTipoAcao($nomeTipoAcao) {
-            $this->nomeTipoAcao = $nomeTipoAcao;
-        }
+    function setNomeTipoAcao($nomeTipoAcao) {
+        $this->nomeTipoAcao = $nomeTipoAcao;
+    }
 
-        function setIdContratoNegociacao($idContratoNegociacao) {
-            $this->idContratoNegociacao = $idContratoNegociacao;
-        }
+    function setIdContratoNegociacao($idContratoNegociacao) {
+        $this->idContratoNegociacao = $idContratoNegociacao;
+    }
 
-        function setDataCadastro($dataCadastro) {
-            $this->dataCadastro = $dataCadastro;
-        }
+    function setDataCadastro($dataCadastro) {
+        $this->dataCadastro = $dataCadastro;
+    }
 
-        function setIsProbIsToExito($isProbIsToExito) {
-            $this->isProbIsToExito = $isProbIsToExito;
-        }
+    function setIsProbIsToExito($isProbIsToExito) {
+        $this->isProbIsToExito = $isProbIsToExito;
+    }
 
-        function setNomeResultado($nomeResultado) {
-            $this->nomeResultado = $nomeResultado;
-        }
+    function setNomeResultado($nomeResultado) {
+        $this->nomeResultado = $nomeResultado;
+    }
 
-        function setIdProbabilidade($idProbabilidade) {
-            $this->idProbabilidade = $idProbabilidade;
-        }
+    function setIdProbabilidade($idProbabilidade) {
+        $this->idProbabilidade = $idProbabilidade;
+    }
 
-        function setNomeProbabilidade($nomeProbabilidade) {
-            $this->nomeProbabilidade = $nomeProbabilidade;
-        }
+    function setNomeProbabilidade($nomeProbabilidade) {
+        $this->nomeProbabilidade = $nomeProbabilidade;
+    }
 
-        function setDataPrevPagRec($dataPrevPagRec) {
-            $this->dataPrevPagRec = $dataPrevPagRec;
-        }
+    function setDataPrevPagRec($dataPrevPagRec) {
+        $this->dataPrevPagRec = $dataPrevPagRec;
+    }
 
-        function setIdFase($idFase) {
-            $this->idFase = $idFase;
-        }
+    function setIdFase($idFase) {
+        $this->idFase = $idFase;
+    }
 
-        function setNomeFase($nomeFase) {
-            $this->nomeFase = $nomeFase;
-        }
+    function setNomeFase($nomeFase) {
+        $this->nomeFase = $nomeFase;
+    }
 
-        function setDataBaixa($dataBaixa) {
-            $this->dataBaixa = $dataBaixa;
-        }
+    function setDataBaixa($dataBaixa) {
+        $this->dataBaixa = $dataBaixa;
+    }
 
-        function setImportData($importData) {
-            $this->importData = $importData;
-        }
-
-
+    function setImportData($importData) {
+        $this->importData = $importData;
+    }
 
 }
