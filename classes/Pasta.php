@@ -18,123 +18,123 @@ Class Pasta {
 	private $idContratoNegociacao;
 	private $dataBaixa;
         
-    function getIdPasta() {
+    public function getIdPasta() {
         return $this->idPasta;
     }
 
-    function getCodigo() {
+    public function getCodigo() {
         return $this->codigo;
     }
 
-    function getPastaStatus() {
+    public function getPastaStatus() {
         return $this->pastaStatus;
     }
 
-    function getImportData() {
+    public function getImportData() {
         return $this->importData;
     }
 
-    function getDataCadastro() {
+    public function getDataCadastro() {
         return $this->dataCadastro;
     }
 
-    function getIdProbabilidade() {
+    public function getIdProbabilidade() {
         return $this->idProbabilidade;
     }
 
-    function getIdResultado() {
+    public function getIdResultado() {
         return $this->idResultado;
     }
 
-    function getIsProbIsToExito() {
+    public function getIsProbIsToExito() {
         return $this->isProbIsToExito;
     }
 
-    function getNomeResultado() {
+    public function getNomeResultado() {
         return $this->nomeResultado;
     }
 
-    function getNomeProbabilidade() {
+    public function getNomeProbabilidade() {
         return $this->nomeProbabilidade;
     }
 
-    function getDataPrevPagRec() {
+    public function getDataPrevPagRec() {
         return $this->dataPrevPagRec;
     }
 
-    function getIdFase() {
+    public function getIdFase() {
         return $this->idFase;
     }
 
-    function getNomeFase() {
+    public function getNomeFase() {
         return $this->nomeFase;
     }
 
-    function getIdContratoNegociacao() {
+    public function getIdContratoNegociacao() {
         return $this->idContratoNegociacao;
     }
 
-    function getDataBaixa() {
+    public function getDataBaixa() {
         return $this->dataBaixa;
     }
 
-    function setIdPasta($idPasta) {
+    public function setIdPasta($idPasta) {
         $this->idPasta = $idPasta;
     }
 
-    function setCodigo($codigo) {
+    public function setCodigo($codigo) {
         $this->codigo = $codigo;
     }
 
-    function setPastaStatus($pastaStatus) {
+    public function setPastaStatus($pastaStatus) {
         $this->pastaStatus = $pastaStatus;
     }
 
-    function setImportData($importData) {
+    public function setImportData($importData) {
         $this->importData = $importData;
     }
 
-    function setDataCadastro($dataCadastro) {
+    public function setDataCadastro($dataCadastro) {
         $this->dataCadastro = $dataCadastro;
     }
 
-    function setIdProbabilidade($idProbabilidade) {
+    public function setIdProbabilidade($idProbabilidade) {
         $this->idProbabilidade = $idProbabilidade;
     }
 
-    function setIdResultado($idResultado) {
+    public function setIdResultado($idResultado) {
         $this->idResultado = $idResultado;
     }
 
-    function setIsProbIsToExito($isProbIsToExito) {
+    public function setIsProbIsToExito($isProbIsToExito) {
         $this->isProbIsToExito = $isProbIsToExito;
     }
 
-    function setNomeResultado($nomeResultado) {
+    public function setNomeResultado($nomeResultado) {
         $this->nomeResultado = $nomeResultado;
     }
 
-    function setNomeProbabilidade($nomeProbabilidade) {
+    public function setNomeProbabilidade($nomeProbabilidade) {
         $this->nomeProbabilidade = $nomeProbabilidade;
     }
 
-    function setDataPrevPagRec($dataPrevPagRec) {
+    public function setDataPrevPagRec($dataPrevPagRec) {
         $this->dataPrevPagRec = $dataPrevPagRec;
     }
 
-    function setIdFase($idFase) {
+    public function setIdFase($idFase) {
         $this->idFase = $idFase;
     }
 
-    function setNomeFase($nomeFase) {
+    public function setNomeFase($nomeFase) {
         $this->nomeFase = $nomeFase;
     }
 
-    function setIdContratoNegociacao($idContratoNegociacao) {
+    public function setIdContratoNegociacao($idContratoNegociacao) {
         $this->idContratoNegociacao = $idContratoNegociacao;
     }
 
-    function setDataBaixa($dataBaixa) {
+    public function setDataBaixa($dataBaixa) {
         $this->dataBaixa = $dataBaixa;
     }
     

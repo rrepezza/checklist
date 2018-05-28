@@ -13,67 +13,67 @@ class Processo
 	private $isProbIsToExito;
 	private $idFase;
         
-        function getIdPastaProc() {
+        public function getIdPastaProc() {
             return $this->idPastaProc;
         }
 
-        function getIdTipoAcaoProc() {
+        public function getIdTipoAcaoProc() {
             return $this->idTipoAcaoProc;
         }
 
-        function getIdRitoProc() {
+        public function getIdRitoProc() {
             return $this->idRitoProc;
         }
 
-        function getIdProbabilidade() {
+        public function getIdProbabilidade() {
             return $this->idProbabilidade;
         }
 
-        function getIdRito() {
+        public function getIdRito() {
             return $this->idRito;
         }
 
-        function getIdResultado() {
+        public function getIdResultado() {
             return $this->idResultado;
         }
 
-        function getIsProbIsToExito() {
+        public function getIsProbIsToExito() {
             return $this->isProbIsToExito;
         }
 
-        function getIdFase() {
+        public function getIdFase() {
             return $this->idFase;
         }
 
-        function setIdPastaProc($idPastaProc) {
+        public function setIdPastaProc($idPastaProc) {
             $this->idPastaProc = $idPastaProc;
         }
 
-        function setIdTipoAcaoProc($idTipoAcaoProc) {
+        public function setIdTipoAcaoProc($idTipoAcaoProc) {
             $this->idTipoAcaoProc = $idTipoAcaoProc;
         }
 
-        function setIdRitoProc($idRitoProc) {
+        public function setIdRitoProc($idRitoProc) {
             $this->idRitoProc = $idRitoProc;
         }
 
-        function setIdProbabilidade($idProbabilidade) {
+        public function setIdProbabilidade($idProbabilidade) {
             $this->idProbabilidade = $idProbabilidade;
         }
 
-        function setIdRito($idRito) {
+        public function setIdRito($idRito) {
             $this->idRito = $idRito;
         }
 
-        function setIdResultado($idResultado) {
+        public function setIdResultado($idResultado) {
             $this->idResultado = $idResultado;
         }
 
-        function setIsProbIsToExito($isProbIsToExito) {
+        public function setIsProbIsToExito($isProbIsToExito) {
             $this->isProbIsToExito = $isProbIsToExito;
         }
 
-        function setIdFase($idFase) {
+        public function setIdFase($idFase) {
             $this->idFase = $idFase;
         }
 

@@ -7,35 +7,35 @@ Class CustomFieldValue {
     private $idCustomField;
     private $campo; //valor do campo, pode ser Texto, Moeda, Logico ou Data
     
-    function getIdCustomFieldValue() {
+    public function getIdCustomFieldValue() {
         return $this->idCustomFieldValue;
     }
 
-    function getIdContexto() {
+    public function getIdContexto() {
         return $this->idContexto;
     }
 
-    function getIdCustomField() {
+    public function getIdCustomField() {
         return $this->idCustomField;
     }
 
-    function getCampo() {
+    public function getCampo() {
         return $this->campo;
     }
 
-    function setIdCustomFieldValue($idCustomFieldValue) {
+    public function setIdCustomFieldValue($idCustomFieldValue) {
         $this->idCustomFieldValue = $idCustomFieldValue;
     }
 
-    function setIdContexto($idContexto) {
+    public function setIdContexto($idContexto) {
         $this->idContexto = $idContexto;
     }
 
-    function setIdCustomField($idCustomField) {
+    public function setIdCustomField($idCustomField) {
         $this->idCustomField = $idCustomField;
     }
 
-    function setCampo($campo) {
+    public function setCampo($campo) {
         $this->campo = $campo;
     }
 

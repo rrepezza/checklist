@@ -5,19 +5,19 @@ Class CustomField{
     private $id;
     private $newName;
     
-    function getId() {
+    public function getId() {
         return $this->id;
     }
 
-    function setId($id) {
+    public function setId($id) {
         $this->id = $id;
     }
 
-    function getNewName() {
+    public function getNewName() {
         return $this->newName;
     }
 
-    function setNome($newName) {
+    public function setNome($newName) {
         $this->newName = $newName;
     }
 }

@@ -1,7 +1,6 @@
 <?php 
 
-class ObjetoAcao
-{
+Class ObjetoAcao {
 	
 	private $idObjeto;
 	private $idPasta;
@@ -9,45 +8,44 @@ class ObjetoAcao
 	private $isDefault;
 	private $idRecurso;
         
-        function getIdObjeto() {
-            return $this->idObjeto;
-        }
+    function getIdObjeto() {
+        return $this->idObjeto;
+    }
 
-        function getIdPasta() {
-            return $this->idPasta;
-        }
+    function getIdPasta() {
+        return $this->idPasta;
+    }
 
-        function getIdTipoObjeto() {
-            return $this->idTipoObjeto;
-        }
+    function getIdTipoObjeto() {
+        return $this->idTipoObjeto;
+    }
 
-        function getIsDefault() {
-            return $this->isDefault;
-        }
+    function getIsDefault() {
+        return $this->isDefault;
+    }
 
-        function getIdRecurso() {
-            return $this->idRecurso;
-        }
+    function getIdRecurso() {
+        return $this->idRecurso;
+    }
 
-        function setIdObjeto($idObjeto) {
-            $this->idObjeto = $idObjeto;
-        }
+    function setIdObjeto($idObjeto) {
+        $this->idObjeto = $idObjeto;
+    }
 
-        function setIdPasta($idPasta) {
-            $this->idPasta = $idPasta;
-        }
+    function setIdPasta($idPasta) {
+        $this->idPasta = $idPasta;
+    }
 
-        function setIdTipoObjeto($idTipoObjeto) {
-            $this->idTipoObjeto = $idTipoObjeto;
-        }
+    function setIdTipoObjeto($idTipoObjeto) {
+        $this->idTipoObjeto = $idTipoObjeto;
+    }
 
-        function setIsDefault($isDefault) {
-            $this->isDefault = $isDefault;
-        }
+    function setIsDefault($isDefault) {
+        $this->isDefault = $isDefault;
+    }
 
-        function setIdRecurso($idRecurso) {
-            $this->idRecurso = $idRecurso;
-        }
-
+    function setIdRecurso($idRecurso) {
+        $this->idRecurso = $idRecurso;
+    }
 
 }

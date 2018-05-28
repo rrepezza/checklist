@@ -6,27 +6,27 @@ Class CustomFieldValue_List{
     private $idCustomFieldValue;
     private $idCustomFieldList;
     
-    function getIdCustomFieldValue_List() {
+    public function getIdCustomFieldValue_List() {
         return $this->idCustomFieldValue_List;
     }
 
-    function getIdCustomFieldValue() {
+    public function getIdCustomFieldValue() {
         return $this->idCustomFieldValue;
     }
 
-    function getIdCustomFieldList() {
+    public function getIdCustomFieldList() {
         return $this->idCustomFieldList;
     }
 
-    function setIdCustomFieldValue_List($idCustomFieldValue_List) {
+    public function setIdCustomFieldValue_List($idCustomFieldValue_List) {
         $this->idCustomFieldValue_List = $idCustomFieldValue_List;
     }
 
-    function setIdCustomFieldValue($idCustomFieldValue) {
+    public function setIdCustomFieldValue($idCustomFieldValue) {
         $this->idCustomFieldValue = $idCustomFieldValue;
     }
 
-    function setIdCustomFieldList($idCustomFieldList) {
+    public function setIdCustomFieldList($idCustomFieldList) {
         $this->idCustomFieldList = $idCustomFieldList;
     }
 

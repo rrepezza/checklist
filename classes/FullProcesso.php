@@ -23,163 +23,163 @@ Class FullProcesso {
 	private $dataBaixa;
 	private $importData;
         
-    function getIdFullProcesso() {
+    public function getIdFullProcesso() {
         return $this->idFullProcesso;
     }
 
-    function getIdPasta() {
+    public function getIdPasta() {
         return $this->idPasta;
     }
 
-    function getCodigo() {
+    public function getCodigo() {
         return $this->codigo;
     }
 
-    function getTituloPasta() {
+    public function getTituloPasta() {
         return $this->tituloPasta;
     }
 
-    function getPastaStatus() {
+    public function getPastaStatus() {
         return $this->pastaStatus;
     }
 
-    function getIdRitoProc() {
+    public function getIdRitoProc() {
         return $this->idRitoProc;
     }
 
-    function getNomeRito() {
+    public function getNomeRito() {
         return $this->nomeRito;
     }
 
-    function getIdTipoAcaoProc() {
+    public function getIdTipoAcaoProc() {
         return $this->idTipoAcaoProc;
     }
 
-    function getNomeTipoAcao() {
+    public function getNomeTipoAcao() {
         return $this->nomeTipoAcao;
     }
 
-    function getIdContratoNegociacao() {
+    public function getIdContratoNegociacao() {
         return $this->idContratoNegociacao;
     }
 
-    function getDataCadastro() {
+    public function getDataCadastro() {
         return $this->dataCadastro;
     }
 
-    function getIsProbIsToExito() {
+    public function getIsProbIsToExito() {
         return $this->isProbIsToExito;
     }
 
-    function getNomeResultado() {
+    public function getNomeResultado() {
         return $this->nomeResultado;
     }
 
-    function getIdProbabilidade() {
+    public function getIdProbabilidade() {
         return $this->idProbabilidade;
     }
 
-    function getNomeProbabilidade() {
+    public function getNomeProbabilidade() {
         return $this->nomeProbabilidade;
     }
 
-    function getDataPrevPagRec() {
+    public function getDataPrevPagRec() {
         return $this->dataPrevPagRec;
     }
 
-    function getIdFase() {
+    public function getIdFase() {
         return $this->idFase;
     }
 
-    function getNomeFase() {
+    public function getNomeFase() {
         return $this->nomeFase;
     }
 
-    function getDataBaixa() {
+    public function getDataBaixa() {
         return $this->dataBaixa;
     }
 
-    function getImportData() {
+    public function getImportData() {
         return $this->importData;
     }
 
-    function setIdFullProcesso($idFullProcesso) {
+    public function setIdFullProcesso($idFullProcesso) {
         $this->idFullProcesso = $idFullProcesso;
     }
 
-    function setIdPasta($idPasta) {
+    public function setIdPasta($idPasta) {
         $this->idPasta = $idPasta;
     }
 
-    function setCodigo($codigo) {
+    public function setCodigo($codigo) {
         $this->codigo = $codigo;
     }
 
-    function setTituloPasta($tituloPasta) {
+    public function setTituloPasta($tituloPasta) {
         $this->tituloPasta = $tituloPasta;
     }
 
-    function setPastaStatus($pastaStatus) {
+    public function setPastaStatus($pastaStatus) {
         $this->pastaStatus = $pastaStatus;
     }
 
-    function setIdRitoProc($idRitoProc) {
+    public function setIdRitoProc($idRitoProc) {
         $this->idRitoProc = $idRitoProc;
     }
 
-    function setNomeRito($nomeRito) {
+    public function setNomeRito($nomeRito) {
         $this->nomeRito = $nomeRito;
     }
 
-    function setIdTipoAcaoProc($idTipoAcaoProc) {
+    public function setIdTipoAcaoProc($idTipoAcaoProc) {
         $this->idTipoAcaoProc = $idTipoAcaoProc;
     }
 
-    function setNomeTipoAcao($nomeTipoAcao) {
+    public function setNomeTipoAcao($nomeTipoAcao) {
         $this->nomeTipoAcao = $nomeTipoAcao;
     }
 
-    function setIdContratoNegociacao($idContratoNegociacao) {
+    public function setIdContratoNegociacao($idContratoNegociacao) {
         $this->idContratoNegociacao = $idContratoNegociacao;
     }
 
-    function setDataCadastro($dataCadastro) {
+    public function setDataCadastro($dataCadastro) {
         $this->dataCadastro = $dataCadastro;
     }
 
-    function setIsProbIsToExito($isProbIsToExito) {
+    public function setIsProbIsToExito($isProbIsToExito) {
         $this->isProbIsToExito = $isProbIsToExito;
     }
 
-    function setNomeResultado($nomeResultado) {
+    public function setNomeResultado($nomeResultado) {
         $this->nomeResultado = $nomeResultado;
     }
 
-    function setIdProbabilidade($idProbabilidade) {
+    public function setIdProbabilidade($idProbabilidade) {
         $this->idProbabilidade = $idProbabilidade;
     }
 
-    function setNomeProbabilidade($nomeProbabilidade) {
+    public function setNomeProbabilidade($nomeProbabilidade) {
         $this->nomeProbabilidade = $nomeProbabilidade;
     }
 
-    function setDataPrevPagRec($dataPrevPagRec) {
+    public function setDataPrevPagRec($dataPrevPagRec) {
         $this->dataPrevPagRec = $dataPrevPagRec;
     }
 
-    function setIdFase($idFase) {
+    public function setIdFase($idFase) {
         $this->idFase = $idFase;
     }
 
-    function setNomeFase($nomeFase) {
+    public function setNomeFase($nomeFase) {
         $this->nomeFase = $nomeFase;
     }
 
-    function setDataBaixa($dataBaixa) {
+    public function setDataBaixa($dataBaixa) {
         $this->dataBaixa = $dataBaixa;
     }
 
-    function setImportData($importData) {
+    public function setImportData($importData) {
         $this->importData = $importData;
     }
 

@@ -13,83 +13,83 @@
         private $valCondAtual;
         private $valProvAtual;
         
-        function getId() {
+        public function getId() {
             return $this->id;
         }
 
-        function getIdPasta() {
+        public function getIdPasta() {
             return $this->idPasta;
         }
 
-        function getValCausa() {
+        public function getValCausa() {
             return $this->valCausa;
         }
 
-        function getValCond() {
+        public function getValCond() {
             return $this->valCond;
         }
 
-        function getValProv() {
+        public function getValProv() {
             return $this->valProv;
         }
 
-        function getDataInicial() {
+        public function getDataInicial() {
             return $this->dataInicial;
         }
 
-        function getDataInicialJuros() {
+        public function getDataInicialJuros() {
             return $this->dataInicialJuros;
         }
 
-        function getValCausaAtual() {
+        public function getValCausaAtual() {
             return $this->valCausaAtual;
         }
 
-        function getValCondAtual() {
+        public function getValCondAtual() {
             return $this->valCondAtual;
         }
 
-        function getValProvAtual() {
+        public function getValProvAtual() {
             return $this->valProvAtual;
         }
 
-        function setId($id) {
+        public function setId($id) {
             $this->id = $id;
         }
 
-        function setIdPasta($idPasta) {
+        public function setIdPasta($idPasta) {
             $this->idPasta = $idPasta;
         }
 
-        function setValCausa($valCausa) {
+        public function setValCausa($valCausa) {
             $this->valCausa = $valCausa;
         }
 
-        function setValCond($valCond) {
+        public function setValCond($valCond) {
             $this->valCond = $valCond;
         }
 
-        function setValProv($valProv) {
+        public function setValProv($valProv) {
             $this->valProv = $valProv;
         }
 
-        function setDataInicial($dataInicial) {
+        public function setDataInicial($dataInicial) {
             $this->dataInicial = $dataInicial;
         }
 
-        function setDataInicialJuros($dataInicialJuros) {
+        public function setDataInicialJuros($dataInicialJuros) {
             $this->dataInicialJuros = $dataInicialJuros;
         }
 
-        function setValCausaAtual($valCausaAtual) {
+        public function setValCausaAtual($valCausaAtual) {
             $this->valCausaAtual = $valCausaAtual;
         }
 
-        function setValCondAtual($valCondAtual) {
+        public function setValCondAtual($valCondAtual) {
             $this->valCondAtual = $valCondAtual;
         }
 
-        function setValProvAtual($valProvAtual) {
+        public function setValProvAtual($valProvAtual) {
             $this->valProvAtual = $valProvAtual;
         }
 
